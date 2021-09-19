@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	line-height: 1.6;
+	background: rgb(132, 158, 245);
+}
+h1, h2, h3, h4, h5, h6 {margin: 0}
+
+.section1{
+	width: 100vw;
+	height: 80vh;
+	background: url("images/photo_2021-09-19_20-15-07.jpg");
+	background-size: 100% 100%;
+}
+.glav_text{
+	width: 100vw;
+	height: 80vh;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: center;
+}
+h1{
+	font-family: 'Caveat', cursive;
+	font-size: 105px;
+	padding-top: 23vh;
+}
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 35px;
+	margin-top: 10px;
+}
+.poloska{
+	background-color: white;
+	width: 50vw;
+	height: 3px;
+	margin: 0 auto;
+}
+
+.section{
+	width: 100%;
+	margin: 20px auto;
+}
+.text{
+	width: 80%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 28px;
+	color: white;
+	margin: 20px auto;
+	text-align: center;
+}
+.images{
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto 6px auto;
+}
+.images img{
+	width: 400px;
+	height: auto;
+}
